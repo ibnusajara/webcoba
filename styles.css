@@ -6,6 +6,7 @@
 body {
   margin: 0;
   padding: 0;
+  max-width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("bg.jpg");
   backdrop-filter: blur(10px);
@@ -14,6 +15,7 @@ body {
   background-position: center;
 }
 header {
+    max-width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -21,6 +23,7 @@ header {
   z-index: 1000;
 }
 .kepala {
+    max-width: 100%;
   background: rgba(0, 0, 0, 0.422);
   backdrop-filter: blur(20px);
   position: sticky;
@@ -107,6 +110,7 @@ li:hover {
   color: yellow;
 }
 .halaman-depan {
+    max-width: 100%;
   display: flex;
   align-items: center;
   padding: 100px;
